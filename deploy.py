@@ -29,7 +29,7 @@ def classify_pax_segment(adults, children, babies):
         return 'Group'
 
 # Streamlit UI
-st.title("Prediksi Upgrade Kamar Hotel")
+st.title("Prediksi Upgrade Kamar")
 
 # Input user
 lead_time = st.number_input("Jarak Reservasi (hari)", min_value=0)
